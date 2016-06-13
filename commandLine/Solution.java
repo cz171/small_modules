@@ -36,15 +36,7 @@ public class Solution {
 	}
 	
 	public void find(String prefix, int index, TrieNode now, ArrayList<String> wordList) {
-		if (index == prefix.length()) {
-			if (now.children.size() == 0) {
-				wordList.add(prefix);
-			}
-			return;
-		}
-		
-		char c = word.charAt(index);
-		if (now.children.containsKey())
+	
 	}
 	
 }
