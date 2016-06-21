@@ -16,10 +16,7 @@ public class Solution {
                     List<String> remainDecomp = wordBreak(remain, dict);
                     if (remainDecomp != null) { // has decompositions
                         for (String item : remainDecomp) {
-                        	System.out.println(pref);
-                        	System.out.println(item);
                             words.add(pref + " " + item);
-                            System.out.println(words.toString());
                         }
                     }
                 }

@@ -2,7 +2,7 @@ package wordBreak;
 
 import java.util.HashSet;
 import java.util.Set;
-
+import java.util.*;
 
 public class Test {
 
@@ -14,6 +14,8 @@ public class Test {
 		dict.add("code");
 		dict.add("lee");
 		System.out.println(s.wordBreak("leetcode", dict));
+		List<String> list = new ArrayList<>();
+		System.out.print(list == null);
 	}
 
 }
