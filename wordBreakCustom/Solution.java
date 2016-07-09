@@ -26,6 +26,28 @@ public class Solution {
 		}
 		
 		return null;
+
+//		if (dict.contains(s)) {
+//			return s;
+//		}
+//		
+//		if (map.containsKey(s)) {
+//			return map.get(s);
+//		}
+//		
+//		for (int i = 1; i < s.length(); i++) {
+//			String prefix = s.substring(0, i);
+//			if (dict.contains(prefix)) {
+//				String suffix = s.substring(i);
+//				String segSuffix = wordBreak(dict, suffix, map);
+//				if (segSuffix != null) {
+//					map.put(s, prefix + " " + segSuffix);
+//					return prefix + " " + segSuffix;
+//				}
+//			}
+//		}
+//		
+//		return null;
 	}
 
 	public static void main(String[] args) {
