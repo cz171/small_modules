@@ -47,7 +47,6 @@ public class Solution {
 		int[] pattern = new int[] {5, 2, 3, 4};
 		int[] nums = new int[] {2, 5, 5, 2, 3, 4, 4, 3, 1, -1, 9};
 		System.out.println(Arrays.toString(patternSort(nums, pattern)));
-
 	}
 
 }
